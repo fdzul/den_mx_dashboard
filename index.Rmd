@@ -4,6 +4,7 @@ output:
   flexdashboard::flex_dashboard:
       theme: flatly
 output_dir: docs
+cover-image: images/cover.jpg
 ---
 
 
