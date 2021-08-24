@@ -1396,10 +1396,9 @@ l %>%
 ### **<span style="color:#7d9029"> Cadenas de Transmisión  </span>**
 
 ```{r}
+library(magrittr)
 # step 1. load the dataset ####
-load("C:/Users/felip/OneDrive/proyects/spatial_analysis_dengue/space_time_analysis/knox_test/10_results/country/knox_2021_country.RData")
-
-
+load("C:/Users/felip/Dropbox/space_time_analysis/knox_tests/10.results/country/knox_2021_country.RData")
 
 # Step 2. create the list of localities names ###
 name_loc <- as.list(stringr::str_sub(names(knox_2021_country),
